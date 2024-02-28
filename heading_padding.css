@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+body
+<styles> 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.introduction {
+    background-color: #f1f1f1;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.skills {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.contact {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    header,
+    #introduction,
+    #skills,
+    #contact {
+        margin: 10px auto;
+    }
+
+    .skills li {
+        padding: 5px 0;
+    }
+}
+</styles>
+
+    <header>
+        <h1>Bard</h1>
+    </header>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>I am a large language model from Google AI, trained to be informative and comprehensive. I can generate text, translate languages, write different kinds of creative content, and answer your questions in an informative way.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Text generation</li>
+            <li>Machine translation</li>
+            <li>Question answering</li>
+            <li>Code generation</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Reach out to me at <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+        <p>Connect with me on social media:</p>
+        <ul>
+            <li><a href="#">Link to your social media profile 1</a></li>
+            <li><a href="#">Link to your social media profile 2</a></li>
+        </ul>
+    </section>
+</body>
+</html>
+
